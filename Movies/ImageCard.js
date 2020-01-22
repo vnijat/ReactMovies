@@ -10,20 +10,20 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     justifyContent: 'flex-start',
-    alignContent: 'stretch'
+    alignContent: 'stretch',
   },
   h1: {
     paddingTop: 10,
     fontFamily: 'theater-afisha',
     fontSize: 18,
     alignSelf: 'flex-start',
-    color: 'gray'
+    color: 'white'
   },
   cover: {
-    padding: 10,
+    margin:10,
     width: w / 2.4,
-    height: h * 0.63,
-    borderRadius: 50,
+    height: h * 0.30,
+    borderRadius: 20,
   }
 })
 
@@ -36,9 +36,10 @@ const ImageCard = ({ data }) => {
   catch (e) {
     {
       return <Image style={{
+        margin:10,
         padding: 100,
-        width: w,
-        height: h * 0.63,
+        width: w / 2.4,
+        height: h * 0.30,
         borderRadius: 50,
       }}
         source={require('../Movies/images/404.png')} />

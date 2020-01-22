@@ -24,7 +24,7 @@ export const styles = StyleSheet.create({
     marginTop: 10
   },
   buttonText: {
-    color: '#fff',
+    color: 'white',
     textAlign: 'center',
   },
 
@@ -34,15 +34,16 @@ export const stylesForNav = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: '#1D2020',
+    justifyContent: 'flex-end',
+    backgroundColor: '#666699',
+    paddingBottom:10
   },
   btnStl:{
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: 'black',
-    borderRadius: 5,
-    borderWidth: 1,
+    backgroundColor: '#ff9966',
+    borderRadius: 10,
+    borderWidth: 2,
     borderColor: 'white',
     marginBottom: 5,
     paddingHorizontal: 4

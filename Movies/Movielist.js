@@ -45,10 +45,10 @@ export default class Movies extends Component {
   render() {
     const { data } = this.state
     return (
-      <View style={{flex: 1, backgroundColor: '#070839'}}>
+      <View style={{flex: 1, backgroundColor: '#666699'}}>
         <ScrollView>
         <View>
-          <Text style={styles.textStyle}>Hi, you can search here some films</Text>
+          <Text style={styles.textStyle}>Search For Movie </Text>
         </View>
         <View style={{ flexDirection: 'row' }}>
           <TextInput
@@ -86,14 +86,14 @@ export default class Movies extends Component {
 
 const styles = StyleSheet.create({
   maincontainer: {
-    backgroundColor: '#070839',
+    backgroundColor: '#666699',
     flex: 1,
   },
   textStyle: {
     justifyContent: 'center',
-    color: '#8A5992',
+    color: 'white',
     fontSize: 28,
-    backgroundColor: '#070839',
+    backgroundColor: '#666699',
     fontFamily: 'theater-afisha'
   },
   viewStyle: {
@@ -131,7 +131,7 @@ const styles = StyleSheet.create({
     borderColor: '#8A5992',
     borderTopWidth: 1,
     height: 56,
-    backgroundColor: '#070839',
+    backgroundColor: '#ff9966',
     fontSize: 28,
     color: '#8A5992',
     fontFamily: 'theater-afisha'
